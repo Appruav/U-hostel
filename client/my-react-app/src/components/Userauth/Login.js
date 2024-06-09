@@ -47,7 +47,7 @@ const Login = () => {
           }}
         />
         <label>
-          Enter your Password
+          Enter your Password.
           <input
             type={showPassword ? "text" : "password"}
             name="password"
