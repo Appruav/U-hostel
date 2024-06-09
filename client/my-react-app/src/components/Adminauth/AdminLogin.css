@@ -1,0 +1,59 @@
+.AdLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .AdLogin form {
+    width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .AdLogin .password-icon2{
+
+    position: absolute;
+    padding-left: 460px;
+    bottom:430px;
+  }
+  .AdLogin h2 {
+    color: #333333;
+    margin-bottom: 10px;
+    margin-left: 200px;
+  }
+  .AdLogin .Forgot-Pass1 a{
+  color: black;
+  text-decoration: solid;
+  text-decoration: underline;
+   
+  }
+  .AdLogin label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .AdLogin input[type="email"], .AdLogin input[type="password"],.AdLogin input[type="text"] {
+    width: 80%;
+    padding: 10px;
+  
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .AdLogin button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .AdLogin button:hover {
+    background-color: #0056b3;
+  }
+  

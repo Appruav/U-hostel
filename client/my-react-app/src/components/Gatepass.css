@@ -1,0 +1,86 @@
+.Gatepass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Gatepass button {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Gatepass button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Container {
+    display: flex;
+    flex-direction: column;
+  
+    width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .Container:hover {
+    transform: scale(1.05);
+  }
+  
+  .Container form {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .Container form label {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .Container form input[type="text"], 
+  .Container form input[type="password"], 
+  .Container form input[type="date"] {
+     width: 70%;
+     margin: 20px;
+     padding: 10px; 
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  .In_time{
+    width: 70%;
+    padding: 10px; 
+    margin: 20px;
+   border: 1px solid #ddd;
+  }
+  .Leave_reason{
+    width: 70%;
+    padding: 10px; 
+    margin: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #ddd;
+  }
+  .Container form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .Container form button:hover {
+    background-color: #0056b3;
+  }
+  

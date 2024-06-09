@@ -1,0 +1,25 @@
+.home .Container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.home .ButtonContainer {
+  display: flex;
+}
+
+.home .Userbutton,
+.home .Adminbutton {
+  padding: 8px;
+  border: 1px solid #333;
+  margin: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.home .Userbutton:hover,
+.home .Adminbutton:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
